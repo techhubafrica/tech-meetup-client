@@ -4,6 +4,12 @@
 
 /* ... */
 
+link[rel='icon'] {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
 @layer base {
   :root {
 
