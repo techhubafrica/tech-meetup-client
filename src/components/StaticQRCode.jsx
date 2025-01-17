@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { QRCodeSVG } from 'qrcode.react';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Calendar, MapPin, Users, MessageSquare, Loader2 } from 'lucide-react';
@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 function StaticQRCode() {
   const [isScanning, setIsScanning] = useState(false);
   const navigate = useNavigate();
-  const qrCodeValue = 'http://locahost:5173/tech-guru-meetup-2025/feedback';
+  const qrCodeValue = 'https://tech-hub-africa-2025.onrender.com/tech-guru-meetup-2025/feedback';
 
   // Simulate QR code scan detection
   const handleScanStart = () => {
