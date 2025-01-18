@@ -157,7 +157,7 @@ export function FeedbackForm({ attendee, onFeedbackSubmitted }) {
       setStepCompleted(true);
       setTimeout(() => {
         setIsSubmitted(true);
-        navigate("/tech-guru-meetup-2025/all-feed-backs");
+        // navigate("/tech-guru-meetup-2025/all-feed-backs");
       }, 5000);
       
       // setTimeout(() => {
