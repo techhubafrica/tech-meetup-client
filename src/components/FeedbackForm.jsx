@@ -160,10 +160,10 @@ export function FeedbackForm({ attendee, onFeedbackSubmitted }) {
         // navigate("/tech-guru-meetup-2025/all-feed-backs");
       }, 1000);
       
-      setTimeout(() => {
-        onFeedbackSubmitted();
-        navigate("/tech-guru-meetup-2025/all-feed-backs");
-      }, 5000);
+      // setTimeout(() => {
+      //   onFeedbackSubmitted();
+      //   navigate("/tech-guru-meetup-2025/all-feed-backs");
+      // }, 5000);
     } catch (error) {
       setLoadingState("error");
       toast.dismiss(loadingToast);
