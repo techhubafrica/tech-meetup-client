@@ -270,7 +270,7 @@ export function FeedbackForm({ attendee, onFeedbackSubmitted }) {
             Tech Guru Meetup 2025
           </h1>
           <p className="text-xl text-muted-foreground">
-            Where Innovation Meets Community
+            Where Innovation and Technology Meet Community
           </p>
         </motion.div>
 
