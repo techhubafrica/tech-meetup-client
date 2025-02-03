@@ -27,7 +27,7 @@ function StaticQRCode() {
             Tech Guru Meetup 2025
           </h1>
           <p className="text-xl text-muted-foreground">
-            Where Technology And Innovation Meet Opportunity
+            where innovation and technology meet opportunity
           </p>
         </div>
 
