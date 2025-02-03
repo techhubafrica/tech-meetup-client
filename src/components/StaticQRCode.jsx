@@ -14,7 +14,7 @@ function StaticQRCode() {
     setIsScanning(true);
     // Simulate processing time before navigation
     setTimeout(() => {
-      navigate('/feedback');
+      navigate('/tech-guru-meetup-2025/feedback');
     }, 2000);
   };
 
