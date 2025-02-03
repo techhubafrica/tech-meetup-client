@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 function StaticQRCode() {
   const [isScanning, setIsScanning] = useState(false);
   const navigate = useNavigate();
-  const qrCodeValue = 'https://tech-hub-africa-2025.onrender.com/tech-guru-meetup-2025/feedback';
+  const qrCodeValue = 'https://event.techhubafrica.org/tech-guru-meetup-2025/feedback';
 
   // Simulate QR code scan detection
   const handleScanStart = () => {
