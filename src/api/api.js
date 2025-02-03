@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const API_URL = 'http://localhost:5000/api',
-const API_URL = "https://tech-hub-server-2iz9.onrender.com/api"
+const API_URL = "https://tech-meet-up-server.onrender.com/api"
 
 export const createAttendee = async (name, email) => {
   try {
