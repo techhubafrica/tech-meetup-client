@@ -107,7 +107,7 @@ function StaticQRCode() {
               <p className="text-muted-foreground">
                 {isScanning 
                   ? "Please wait while we direct you to the feedback form..."
-                  : "Scan the QR code to share your feedback and help us improve future events"
+                  : "Scan or click the QR code to share your feedback and help us improve future events"
                 }
               </p>
               {!isScanning && (
